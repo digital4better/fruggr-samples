@@ -1,6 +1,6 @@
 # "navigate" functional unit with Fruggr scanner sample
 
-## Use
+## Use-case
 
 This sample illustrates a basic functional unit script with a single action: a "go to" to Digital4better website
 
