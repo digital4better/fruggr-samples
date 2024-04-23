@@ -27,7 +27,7 @@ Although no analysis is performed, an API key is required to validate your Frugg
 
 ### Successful execution
 
-You should see such output when your script is ok.
+You should see such output when your script is ok:
 
 ```
 $ docker compose up
