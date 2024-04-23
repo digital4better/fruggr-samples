@@ -15,7 +15,7 @@ Scenario:
 
 Read the [main requirements](../#requirements).
 
-Despite no analysis is done
+Although no analysis is performed, an API key is required to validate your Fruggr license.
 
 ## How to use?
 
