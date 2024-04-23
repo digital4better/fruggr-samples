@@ -12,8 +12,8 @@ Read the [main requirements](../#requirements).
 
 - [Go on Fruggr SaaS](https://www.fruggr.io/app)
 - Create a new Fruggr digital service of type "Functional Unit"
-- Configure the functional unit script with the content [this sample file](sample-funit-script.json)
+- Configure the functional unit script with the content of [this sample file](sample-funit-script.json)
 - Copy the file [`.env.sample`](.env.sample) and name it `.env`
-- Configure the `FRUGGR_API_KEY` of your project in the `.env` file
-- Run `docker compose up` on your command line
+- Configure the `FRUGGR_API_KEY` (check [requirements](#requirements)) in the `.env` file
+- Run `docker compose up` in your command line
 - At the end of the analysis, [go on Fruggr SaaS](https://www.fruggr.io/app) and check the summary of the analysis!
