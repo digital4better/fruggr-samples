@@ -15,15 +15,15 @@ You also need a Fruggr digital service, with "owner" permission, where you can g
 
 1. [Basic "go to" a public HTTP URL](navigate)
 
-  The configuration is handled by Fruggr Saas
+   The configuration is handled by Fruggr Saas
 
 1. [Run a functional unit with debug screenshots](debug-screenshots)
 
-  Debug screenshots are generated during the functional unit analysis
+   Debug screenshots are generated during the functional unit analysis
 
 1. [Test a functional unit when the script is local](testing-local-script)
 
-  The functional unit configuration script is local
+   The functional unit configuration script is local
 
 ## Troubleshooting / FAQ
 
