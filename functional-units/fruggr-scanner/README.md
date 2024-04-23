@@ -9,7 +9,7 @@ So, install:
 - [Docker Desktop](https://docs.docker.com/desktop/)/Engine (Windows/WSL, MacOS, Linux)
 - Docker Compose (usually bundled with Docker Desktop)
 
-You also need a Fruggr digital service, with "admin" permission, where you can get [your CI/CD Access Token](https://wiki.fruggr.io/hc/fr/articles/9694438970653). It is named later `FRUGGR_API_KEY`.
+You also need a Fruggr digital service, with "owner" permission, where you can get [your CI/CD Access Token](https://wiki.fruggr.io/hc/fr/articles/9694438970653). It is named later `FRUGGR_API_KEY`.
 
 ## Samples
 
