@@ -1,0 +1,10 @@
+services:
+  fruggr-scanner:
+    image: fruggr/scanner:latest
+    # Our advice: always pull last available image
+    pull_policy: always
+    environment:
+      - FRUGGR_API_KEY
+      - FRUGGR_DEBUG_PATH
+    volumes:
+      - "./work:/tmp/fruggr"
