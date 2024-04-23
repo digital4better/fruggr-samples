@@ -89,7 +89,7 @@ fruggr-scanner-1 exited with code 1
 
 ## Troubleshooting / FAQ
 
-See ["Troubleshooting / FAQ"](../#troubleshooting-faq) section.
+See ["Troubleshooting / FAQ"](../#troubleshooting--faq) section.
 
 ## Getting help
 

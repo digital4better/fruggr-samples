@@ -20,7 +20,7 @@ Read the [main requirements](../#requirements).
 
 ## Troubleshooting / FAQ
 
-See ["Troubleshooting / FAQ"](../#troubleshooting-faq) section.
+See ["Troubleshooting / FAQ"](../#troubleshooting--faq) section.
 
 ## Getting help
 
