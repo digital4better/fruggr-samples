@@ -1,0 +1,14 @@
+services:
+  fruggr-scanner:
+    image: fruggr/scanner:latest
+    # Our advice: always pull last available image
+    pull_policy: always
+    environment:
+      - FRUGGR_API_KEY
+      - FRUGGR_DEBUG_PATH
+      - FRUGGR_FUNIT_PATH
+      - DISPLAY=${DISPLAY}
+      - FRUGGR_FUNIT_HEADFUL=1
+    volumes:
+      - "./work:/tmp/fruggr"
+      - /tmp/.X11-unix:/tmp/.X11-unix
