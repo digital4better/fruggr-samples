@@ -4,6 +4,7 @@
 ## Use-case
 
 This sample illustrates how to develop and test a local functional unit script with the Fruggr scanner.
+Note that no Fruggr analysis is done in this mode.
 
 Scenario:
 - The local functional script you want to test is located at `./work/script.json` on your computer

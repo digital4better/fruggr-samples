@@ -21,9 +21,13 @@ You also need a Fruggr digital service, with "owner" permission, where you can g
 
    Debug screenshots are generated during the functional unit analysis
 
-1. [Test a functional unit when the script is local](testing-local-script)
+1. [Test a functional unit when the script is local](local-script-testing)
 
-   The functional unit configuration script is local
+   The functional unit configuration script is local, **without** analysis of the service
+
+1. [Run a functional unit when the script is local](local-script-analyzing)
+
+   The functional unit configuration script is local, **with** analysis of the service
 
 ## Troubleshooting / FAQ
 
