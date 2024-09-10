@@ -1,0 +1,14 @@
+{
+  "schema": "https://www.fruggr.io/schemas/script-1.0.0",
+  "steps": [
+    {
+      "name": "Go to digital4better.com home page",
+      "actions": [
+        {
+          "type": "navigate",
+          "value": "https://digital4better.com/"
+        }
+      ]
+    }
+  ]
+}
