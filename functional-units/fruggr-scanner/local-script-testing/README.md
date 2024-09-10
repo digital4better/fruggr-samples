@@ -4,13 +4,15 @@
 ## Use-case
 
 This sample illustrates how to develop and test a local functional unit script with the Fruggr scanner.
-Note that no Fruggr analysis is done in this mode.
+Please note: 
+- **No Fruggr analysis is done** in this mode
+- The scanner ignore the script configured **on Fruggr platform** for the configured digital service
 
 Scenario:
 - The local functional script you want to test is located at `./work/script.json` on your computer
 - Fruggr scanner is started in a special mode which allows it to read this local file
 - Fruggr scanner reads and validates the script **without analyzing** the digital service
-- When the script has an error, you get it in the console of your command line
+- When the script has an error, you get it in the console of the command line
 
 ## Requirements
 
@@ -24,6 +26,7 @@ Although no analysis is performed, an API key is required to validate your Frugg
 - Create a new Fruggr digital service of type "Functional Unit"
 - Copy the file [`.env.sample`](.env.sample) and name it `.env`
 - Configure the `FRUGGR_API_KEY` (check [requirements](#requirements)) in the `.env` file
+- Replace the content of `./work/script.json` by your own script
 - Run `docker compose up` in your command line
 
 ### Successful execution
