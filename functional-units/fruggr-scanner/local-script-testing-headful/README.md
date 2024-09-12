@@ -4,7 +4,8 @@
 ## Use-case
 
 This sample illustrates how to develop and test a local functional unit script with the Fruggr scanner.
-The scanner generates screenshots before and after each action of your script.
+The scanner runs in _headful mode_, which means you can see the browser window of Fruggr browsing your functional unit walkthrough.
+Pretty cool!
 
 Please note: 
 - **No Fruggr analysis is done** in this mode
@@ -13,9 +14,9 @@ Please note:
 Scenario:
 - The local functional script you want to test is located at `./work/script.json` on your computer
 - Fruggr scanner is started in a special mode which allows it to read this local file
+- The browser window opens on your desktop
 - Fruggr scanner reads and validates the script **without analyzing** the digital service
 - When the script has an error, you get it in the console of the command line
-- Screenshots are generated before and after each actions in `./work/screenshots`
 
 ## Requirements
 
